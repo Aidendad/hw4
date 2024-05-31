@@ -1,6 +1,19 @@
-<h1>Login</h1>
+<h1 style="font-weight: bold">Login</h1>
+
+<div class="container mt-4">
 
 <form action="/sessions" method="post">
+  <div class="mb-4 fs-6 fw-bold">
+    <label for="email_input" class="form-label">Email</label>
+    <input type="text" name="email" id="email_input" class="form-control fst-italic" placeholder="Your Email here">
+  </div>
 
-  <button>Login<button>
+  <div class="mb-4 fs-6 fw-bold">
+    <label for="password_input" class="form-label">Password</label>
+    <input type="password" name="password" id="password_input" class="form-control fst-italic" placeholder="Your password here">
+  </div>
+
+  <div class="container mt-4">
+
+  <button class="btn btn-primary">Login</button>
 </form>
